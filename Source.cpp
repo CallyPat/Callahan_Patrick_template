@@ -13,7 +13,6 @@ using namespace std;
 template <typename T>
 
 
-
 T half(T x) {
 
     T half;
@@ -31,4 +30,27 @@ T half(T x) {
     return half;
 
 };
+
+
+int main() {
+    double a = 7.0;
+
+    float b = 5.0f;
+
+    int c = 3;
+
+    cout << "Half values of : \n";
+
+    cout << endl;
+
+    cout << "\t" << a << " : " << half(a) << "\n";
+
+    cout << "\t" << b << " : " << half(b) << "\n";
+
+    cout << "\t" << c << " : " << half(c) << "\n";
+
+    system("pause");
+    return 0;
+
+}
 
